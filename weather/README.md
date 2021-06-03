@@ -5,7 +5,7 @@
 Пример вызова:
 ```
 git clone https://github.com/sergeylobaev/devops_course.git
-cd devops_course
+cd devops_course/weather
 chmod u+x get_weather_today.sh
 ./get_weather_today.sh Perm
 ```
