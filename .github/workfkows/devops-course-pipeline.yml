@@ -1,0 +1,11 @@
+name: Github Actions devops course
+on: push
+jobs:
+  DevOps-Course-first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "asd"
+      - name: Show uptime
+        run: uptime
+      - name: Where?
+        run: pwd
